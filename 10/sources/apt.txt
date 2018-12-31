@@ -1,0 +1,15 @@
+curl
+fontconfig
+git
+libjpeg62-turbo-dev
+libldap2-dev
+libsasl2-dev
+libssl-dev
+libxml2-dev
+libxrender1
+libxslt1-dev
+postgresql-client
+python-dev
+python-pip
+sudo
+zlib1g-dev
