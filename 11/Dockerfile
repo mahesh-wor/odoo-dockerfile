@@ -102,7 +102,9 @@ User odoo
 # Set the default config file
 ENV ODOO_RC /opt/odoo/etc/odoo.conf
 ADD sources/entrypoint.sh /opt/scripts/entrypoint.sh
+User 0
 RUN chmod -R 775 /opt/scripts/entrypoint.sh && chown -R odoo:odoo /opt/scripts/entrypoint.sh
+User odoo
 # USER odoo
 ENTRYPOINT ["/opt/scripts/entrypoint.sh"]
 CMD ["/opt/odoo/sources/odoo/odoo-bin"]
