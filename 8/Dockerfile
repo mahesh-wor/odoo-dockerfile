@@ -3,7 +3,7 @@ FROM debian:stretch
 MAINTAINER BI
 
 # Define build constants
-ENV GIT_BRANCH=10.0 \
+ENV GIT_BRANCH=8.0 \
   PYTHON_BIN=python3 \
   SERVICE_BIN=odoo-bin
 
